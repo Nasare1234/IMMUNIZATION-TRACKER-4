@@ -1,0 +1,101 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background-color: #f4f4f4;
+
+}
+
+.container {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    padding: 20px;
+
+    background-color: #fff;
+
+}
+
+h1, h2 {
+
+    color: #333;
+
+}
+
+form {
+
+    margin-bottom: 20px;
+
+}
+
+label {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],
+
+input[type="date"],
+
+input[type="tel"],
+
+button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+button {
+
+    background-color: #007bff;
+
+    color: #fff;
+
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background-color: #0056b3;
+
+}
+
+#upcomingImmunizations {
+
+    border-top: 1px solid #ccc;
+
+    padding-top: 20px;
+
+}
+
+#immunizationList {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+#immunizationList li {
+
+    margin-bottom: 10px;
+
+}
